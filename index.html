@@ -1,317 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Bulb Softworks | GitHub</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bulb Softworks</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/menu.css">
 
-<body>
-	<header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 overflow">
-                   <div class="social-icons pull-right">
-                        <ul class="nav nav-pills">
-                            <!-- <li><a href=""><i class="fa fa-facebook"></i></a></li> -->
-                            <li><a href="https://twitter.com/MrP0rky"><i class="fa fa-twitter"></i></a></li>
-                            <!--<li><a href=""><i class="fa fa-google-plus"></i></a></li> -->
-                            <!--<li><a href=""><i class="fa fa-dribbble"></i></a></li> -->
-                            <!--<li><a href=""><i class="fa fa-linkedin"></i></a></li> -->
-                        </ul>
-                    </div>
-                </div>
-             </div>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <!-- Heading section-->
+        <header>
+            <h3 class="menu-title">Bulb Softworks</h3>
+            <div class="header-links">
+                <a href="http://www.twitter.com">
+                    <img border="0" alt="W3Schools" src="img/twitter.png" width="24" height="24">
+                </a>
+                <a href="http://www.facebook.com">
+                    <img border="0" alt="W3Schools" src="img/facebook.png" width="24" height="24">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </header>
+    <div class="intro-container">
+        <div class="slide-text">
+            <h1 class=".col-6">Who is this for?</h1>
+            <p>Welcome to my personal portfolio for the projects I create. Here, you can see the different projects I have worked on as well as links to many of the things for free.
+                As such, this contains the majority of the projects I have created or worked on over the years</p>
+            <p>
+                All projects that I am able to, I will upload to a GitHub repository such that they can be viewed and any lessons can be learnt from the processes I have used.
+                However, in certian cases, I am not able to upload the source code, but I may be able to upload the compiled code.
+            </p>
         </div>
-        <div class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+        <div class="intro-picture">
+            <img style="vertical-align:middle" src="img/guardian.PNG">
+        </div>
+    </div>
 
-                    <a class="navbar-brand" href="index.html">
-                    	<!--<h1><img src="images/logo.png" alt="logo"></h1>-->
-                    </a>
+    <div class="breaker">
 
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="sub-pages/about.html">About</a></li>
-                                <li><a href="sub-pages/service.html">Services</a></li>
-                                <li><a href="sub-pages/pricing.html">Pricing</a></li>
-                                <li><a href="sub-pages/contact.html">Contact</a></li>
-                                <li><a href="sub-pages/coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="portfolio.html">Portfolio Default</a></li>
-                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                                <li><a href="portfoliothree.html">2 Columns</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="search">
-                    <form role="form">
-                        <i class="fa fa-search"></i>
-                        <div class="field-toggle">
-                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                        </div>
-                    </form>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Guardian</span>
+                        <p>Guardian is a Discord bot built off of JDA! Guardian supports playing music from YouTube, Soundcloud, Twitch, and many more sources!
+                            Click the links bellow to either add Guardian to a Discord server or view the source code.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://discordapp.com/oauth2/authorize?&client_id=216665667426844684&scope=bot&permissions=0" target="_blank">Add Guardian</a>
+                        <a href="https://github.com/BulbSoftworks/guardian-v2" target="_blank">View Source Code</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <!--/#header-->
-
-    <section id="home-slider">
-        <div class="container">
-            <div class="row">
-                <div class="main-slider">
-                    <div class="slide-text">
-                        <h1>My projects:</h1>
-                        <p>I'm a source engine developer who also makes GUI interfaces for desktop based applications. Check out some of my work!
-						</p>
-                        <a href="#" class="btn btn-common">Projects</a>
+            <div class="col-md-6">
+            <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Another project</span>
+                        <p>This is empty because I haven't got round to making new projects. Please don't get too angry at this.</p>
+                        <p>If I'm honest I am adding text to make this look more finished... The links on this one are dead, and thus , there is nio point clicking them.</p>
                     </div>
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
-                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
-                </div>
-            </div>
-        </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
-    <!--/#home-slider-->
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <a href="https://github.com/BulbSoftworks/SteamPlus"><img src="images/home/steam_icon.png" alt=""></a>
-                        </div>
-                        <h2>SteamPlus</h2>
-                        <p>SteamPlus is a community modern update to Steam using the Electron API to provide responsive HTML5 based UI! CLick <a href="https://github.com/BulbSoftworks/SteamPlus">here</a>
-                        to download it!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/home/icon2.png" alt="">
-                        </div>
-                        <h2>Project 2</h2>
-                        <p>Filled in when needed be - This text is a placeholder text</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/home/icon3.png" alt="">
-                        </div>
-                        <h2>Project 3</h2>
-                        <p>Filled in when needed be - This text is a placeholder text</p>
+                    <div class="card-action">
+                        <a href="#" target="_blank">Add Guardian</a>
+                        <a href="#" target="_blank">View Source Code</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!--/#services-->
+        <h3>Who Am I?</h3>
+        <p>My name is Alfie Powers, and I am a prospecting Computer Science student. My main projects consist of my Discord Bot, which the maintanence of, takes a fair amount of my time.
+        If you are intrested in any of my code, please check out my source code for the bot, and if there are any issues you find, either PM me on GitHub or attempt to fix them yourself 
+        by forking the repository. Any bug fixes are gladly accepted, and I will make sure that I add you to the credits on the GitHub page.</p>
+        <p>If you're intrested in either my project or the Java Discord API (JDA), I thouroughly reccomend reading the documentation and/or dv8tion's source code. Thanks to dv8tion for the amazing API that is JDA
+        as without it, Guardian wouldn't exist.</p>
+    </div>
 
-    <section id="action" class="responsive">
-        <div class="vertical-center">
-             <div class="container">
-                <div class="row">
-                    <div class="action take-tour">
-                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <h1 class="title">Downloads and Info</h1>
-                            <p>Visit the download page for my Project's source code or download any precompiled release versions</p>
-                        </div>
-                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <div class="tour-button">
-                                <a href="https://github.com/BulbSoftworks/SteamPlus" class="btn btn-common">Download</a>
-                             </div>
-                        </div>
-                    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="row">
+            <div class="footer-text">
+                <div class="large-4 medium-4 small-4 columns">
+                    <p>Lorem ipsum dolor sit amet, at quot tacimates patrioque nec. Vel in molestie disputationi, vix nobis oratio suavitate eu. Cu eius docendi aliquando sit, pri labore inciderint et. Cu sea atqui ludus sententiae, suas hinc expetendis an eum. Cu mel reque eloquentiam. Sit an etiam gloriatur.</p>
+                </div>
+                <div class="large-4 medium-4 small-4 columns">
+                    <p> At nullam suavitate qui, posse mucius efficiendi mei cu. Noluisse iracundia scribentur est eu, possit iisque ad sit, sed et regione quaestio suavitate. Est soluta impedit molestie et, et qui insolens adipisci temporibus. Ea ullum necessitatibus eam. Quo in animal adversarium, eum detracto placerat an.</p>
+                </div>
+                <div class="large-4 medium-4 small-4 columns">
+                    <p>Eu usu nulla concludaturque, probatus adolescens no sed, discere postulant has ea. Sit meis repudiare posidonium ei. Eros facete aliquip ex eam. An qui odio accusamus, usu te admodum blandit, solum voluptatum suscipiantur eu qui. Ubique delicata mel id, eu mel unum eros etiam, sanctus quaestio elaboraret ne sea. Commodo fierent ad eum, ne vix nulla nostro mentitum. Nec sumo lucilius sententiae ea, quo porro tamquam docendi et.</p>
                 </div>
             </div>
         </div>
-   </section>
-    <!--/#action-->
-
-    <section id="features">
-        <div class="container">
-            <div class="row">
-                <div class="single-features">
-                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image1.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Electron Projects</h2>
-                        <P>I develop GUIs for desktop applications. If you're intrested in my projects, check them out!</P>
-                    </div>
-                </div>
-                <div class="single-features">
-                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Source modding</h2>
-                        <P>Any projects I make for the Source engine, I usually will upload here before anywhere else. Usually, if I can, I will upload the full uncompiled source code.</P>
-                    </div>
-                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image2.png" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="single-features">
-                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image3.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Experienced and Enthusiastic</h2>
-                        <P>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.</P>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     <!--/#features-->
-
-    <section id="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
-                        <h1 class="title">Happy Clients</h1>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
-                    </div>
-                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
-                        </div>
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>
-    <!--/#clients-->
-
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center bottom-separator">
-
-                </div>
-                <div class="col-md-4 col-sm-6">
-
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="contact-info bottom">
-                        <h2>Contacts</h2>
-                        <address>
-                        E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br>
-                        Phone: +1 (123) 456 7890 <br>
-                        Fax: +1 (123) 456 7891 <br>
-                        </address>
-
-                        <h2>Address</h2>
-                        <address>
-                        Unit C2, St.Vincent's Trading Est., <br>
-                        Feeder Road, <br>
-                        Bristol, BS2 0UY <br>
-                        United Kingdom <br>
-                        </address>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="contact-form bottom">
-                        <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="copyright-text text-center">
-                        <p>&copy; BulbSoftworks 2016. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="">
+            <!-- Who needs code maintenance when you have Javascript? -->
+            <p class="footer-copyright">Copyright © 2016-<script type="text/javascript">
+                var d = new Date()
+                document.write(d.getFullYear())
+                </script> Alfie Powers</p>
         </div>
     </footer>
-    <!--/#footer-->
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
+    </body>
 </html>
